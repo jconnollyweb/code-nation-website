@@ -1,0 +1,177 @@
+body{
+    background-image: url(images/phone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+header{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+nav{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.322);
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+nav a:hover{
+    color: rgb(230, 138, 18);
+}
+
+intro{
+    font-family:'Yanone Kaffeesatz', sans-serif ;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+form{
+
+margin-left: 50px;
+margin-top: 50px;
+transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+input{
+    height: 40px;
+}
+
+a img{
+    height: 40px;
+    width: auto;
+}
+
+intro a{
+    color: white;
+    text-decoration: none;
+}
+
+intro a:hover{
+    color: orangered;
+    text-decoration: none;
+}
+form .submit{
+    background: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+form .submit:hover{
+    background: rgb(165, 165, 62);
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+button{
+    font-family: 'Berkshire Swash', cursive;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 45%;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: red;
+    font-size: 60px;
+    padding: 20px;
+    font-weight: bold;
+}
+/* 5555555555555555555555555555555555555555555555555555555555555555555555555555555 */
+footer{
+    
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+    margin-top: 30px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+
+}
+
+
+footer img{
+    width:30px;
+    height: 30px;
+    color: white;
+   
+}
+
+.port a{
+    color: white;
+    font-size: 30px;
+    margin-right: 40px;
+    text-decoration: none;
+    text-align: center;
+    
+
+}
+
+.social a{
+    color: white;
+    font-size: 20px;
+    margin-right: 40px;
+    text-decoration: none;
+
+}
+footer p{
+    margin-left: 20%;
+}

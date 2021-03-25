@@ -1,0 +1,185 @@
+
+
+body{
+    background-image: url(images/thomas-kelley-2ZWCDBuw1B8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+main{
+   
+    margin-bottom: 10px;
+    height: 400px;
+    background-color: blue;
+    font-family:'Berkshire Swash', cursive ;
+    bottom: 8px;
+    left: 16px;
+    margin-top: 30px;
+   
+}
+main h1 {
+    font-family: 'Berkshire Swash', cursive;
+    margin-top: 30px;
+    margin-right: 150px;
+    float:right;
+    
+}
+
+.hero-image {
+    background-image: url(images/ian-dooley-DJ7bWa-Gwks-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%; 
+   object-fit: none;
+   
+   
+}
+
+ .hero-text {
+    font-size: 80px;
+    color:white;
+} 
+
+
+
+
+ 
+    
+    h1 {
+        font-size: 70px;
+        font-family: 'Berkshire Swash', cursive;
+    }
+    
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 40px;
+        font-family: 'Berkshire Swash', cursive;
+    }
+    
+    
+    
+    
+    nav{
+        text-align: center;
+        color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.315);
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        box-shadow: rgba(255, 68, 0, 0.527) 3px 5px 5px 0px;
+    
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: white;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        
+        
+    
+    }
+    
+    nav a:hover{
+        color: rgb(224, 74, 4);
+    }
+
+    intro a{
+        color: white;
+    }
+    
+    intro p, h2, h3{
+        font-family:'Yanone Kaffeesatz', sans-serif ;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        width: 1024px;
+        margin-left: 20%;
+        background-color: rgba(97, 28, 3, 0.719);
+        padding: 20px;
+        line-height: 1.6;
+    }
+    
+    button{
+        font-family:'Yanone Kaffeesatz', sans-serif ;
+        text-align: center;
+        font-size: 40px;
+        color: white;
+        margin-left: 45%;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: rgba(97, 28, 3, 0.719);
+        text-decoration: none;
+        
+    }
+
+    button a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    button a:hover {
+        color: orangered;
+        text-transform: uppercase;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    /* 5555555555555555555555555555555555555555555555555555555555555555555555555555555 */
+    footer{
+        
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0.253);
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+       
+        margin-top: 30px;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        
+    
+    }
+    
+    
+    footer img{
+        width:30px;
+        height: 30px;
+        color: white;
+       
+    }
+    
+    .port a{
+        color: white;
+        font-size: 30px;
+        margin-right: 40px;
+        text-decoration: none;
+        text-align: center;
+        
+    
+    }
+    
+    .social a{
+        color: white;
+        font-size: 20px;
+        margin-right: 40px;
+        text-decoration: none;
+    
+    }
+    footer p{
+        margin-left: 20%;
+    }
